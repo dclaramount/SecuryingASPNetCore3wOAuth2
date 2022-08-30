@@ -22,7 +22,7 @@ namespace Marvin.IDP
         public void ConfigureServices(IServiceCollection services)
         {
             // uncomment, if you want to add an MVC-based UI
-            //services.AddControllersWithViews();
+            services.AddControllersWithViews();
 
             var builder = services.AddIdentityServer()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
@@ -41,15 +41,15 @@ namespace Marvin.IDP
             }
 
             // uncomment if you want to support static files
-            //app.UseStaticFiles();
-
+            app.UseStaticFiles();
+            app.UseRouting();
             app.UseIdentityServer();
-
+            app.UseAuthorization();
             // uncomment, if you want to add an MVC-based UI
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapDefaultControllerRoute();
-            //});
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapDefaultControllerRoute();
+            });
         }
     }
 }
