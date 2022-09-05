@@ -1,36 +1,373 @@
-2022-08-30 10:29:30.066 +02:00 [INF] Starting host...
-2022-08-30 10:29:33.753 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
-2022-08-30 10:29:33.763 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
-2022-08-30 10:29:33.766 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
-2022-08-30 10:29:33.766 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
-2022-08-30 10:29:33.767 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
-2022-08-30 10:29:33.767 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
-2022-08-30 10:29:33.767 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
-2022-08-30 10:29:33.767 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
-2022-08-30 10:30:07.599 +02:00 [DBG] Login Url: /Account/Login
-2022-08-30 10:30:07.600 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
-2022-08-30 10:30:07.601 +02:00 [DBG] Logout Url: /Account/Logout
-2022-08-30 10:30:07.602 +02:00 [DBG] ConsentUrl Url: /consent
-2022-08-30 10:30:07.602 +02:00 [DBG] Consent Return Url Parameter: returnUrl
-2022-08-30 10:30:07.602 +02:00 [DBG] Error Url: /home/error
-2022-08-30 10:30:07.602 +02:00 [DBG] Error Id Parameter: errorId
-2022-08-30 10:30:26.290 +02:00 [DBG] Request path /.well-Known/openid-configuration matched to endpoint type Discovery
-2022-08-30 10:30:26.293 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
-2022-08-30 10:30:26.294 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-Known/openid-configuration
-2022-08-30 10:30:26.295 +02:00 [DBG] Start discovery request
-2022-08-30 10:38:24.228 +02:00 [INF] Starting host...
-2022-08-30 10:38:26.857 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
-2022-08-30 10:38:26.866 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
-2022-08-30 10:38:26.869 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
-2022-08-30 10:38:26.869 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
-2022-08-30 10:38:26.869 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
-2022-08-30 10:38:26.869 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
-2022-08-30 10:38:26.870 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
-2022-08-30 10:38:26.870 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
-2022-08-30 10:38:46.634 +02:00 [DBG] Login Url: /Account/Login
-2022-08-30 10:38:46.636 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
-2022-08-30 10:38:46.638 +02:00 [DBG] Logout Url: /Account/Logout
-2022-08-30 10:38:46.638 +02:00 [DBG] ConsentUrl Url: /consent
-2022-08-30 10:38:46.638 +02:00 [DBG] Consent Return Url Parameter: returnUrl
-2022-08-30 10:38:46.639 +02:00 [DBG] Error Url: /home/error
-2022-08-30 10:38:46.639 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 18:32:11.017 +02:00 [INF] Starting host...
+2022-09-05 18:32:17.106 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 18:32:17.118 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 18:32:17.121 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 18:32:17.122 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 18:32:17.122 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 18:32:17.122 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 18:32:17.122 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 18:32:17.123 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:46:44.847 +02:00 [INF] Starting host...
+2022-09-05 19:46:49.839 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:46:49.851 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:46:49.854 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:46:49.854 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:46:49.854 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:46:49.855 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:46:49.855 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:46:49.855 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:49:49.411 +02:00 [INF] Starting host...
+2022-09-05 19:49:53.222 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:49:53.234 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:49:53.239 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:49:53.239 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:49:53.239 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:49:53.239 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:49:53.239 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:49:53.239 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:49:55.995 +02:00 [DBG] Login Url: /Account/Login
+2022-09-05 19:49:55.997 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2022-09-05 19:49:55.998 +02:00 [DBG] Logout Url: /Account/Logout
+2022-09-05 19:49:55.999 +02:00 [DBG] ConsentUrl Url: /consent
+2022-09-05 19:49:55.999 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2022-09-05 19:49:55.999 +02:00 [DBG] Error Url: /home/error
+2022-09-05 19:49:55.999 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 19:49:56.010 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2022-09-05 19:49:56.011 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2022-09-05 19:49:56.011 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-09-05 19:49:56.013 +02:00 [DBG] Start discovery request
+2022-09-05 19:49:56.339 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2022-09-05 19:49:56.342 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2022-09-05 19:49:56.342 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2022-09-05 19:49:56.344 +02:00 [DBG] Start key discovery request
+2022-09-05 19:49:56.423 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2022-09-05 19:49:56.430 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2022-09-05 19:49:56.431 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-09-05 19:49:56.432 +02:00 [DBG] Start authorize request
+2022-09-05 19:49:56.436 +02:00 [DBG] No user present in authorize request
+2022-09-05 19:49:56.437 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 19:49:56.444 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 19:49:56.458 +02:00 [ERR] Unsupported response_mode: code
+{"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhYASPyOf6Z4lAfn5OYZZ1HdLmIwNBOg5d3rpmDn96Lor9jt0p6yP_u1EnHcY6FbIzpm6-_5J3a5dCxszJJTkzEZ6mRydZB29F29h0ltvPE9RRcrn1CkKgm9pQ5Pti4zKRuL-bydQ6ef9A5r6DFW1yksWz4CkMHtQNGmTqycQVd_8CYydbnenITK2rzpbZdXToftwl-QYqECyQ2GpSA2putFkVOUNy71zOHkaJANMHz2dXNfjqieKzhi8OX0SQxJxSgb3yoUe8k2bYs2O-_krg8w","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"code","nonce":"637979969963756567.ODgwMDA4ODctM2EyYS00N2ZmLWIyMTEtY2QyODc3ODZjMmYyNTYxZTVhZTctOTQyNC00ZmNmLThmYTgtNDliMDgxZjNkMWZj","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhYASPyOf6Z4lAfn5OYZZ1HdLmIwNBOg5d3rpmDn96Lor9jt0p6yP_u1EnHcY6FbIzpm6-_5J3a5dCxszJJTkzEZ6mRydZB29F29h0ltvPE9RRcrn1CkKgm9pQ5Pti4zKRuL-bydQ6ef9A5r6DFW1yksWz4CkMHtQNGmTqycQVd_8CYydbnenITK2rzpbZdXToftwl-QYqECyQ2GpSA2putFkVOUNy71zOHkaJANMHz2dXNfjqieKzhi8OX0SQxJxSgb3yoUe8k2bYs2O-_krg8w","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 19:49:56.507 +02:00 [ERR] Request validation failed
+2022-09-05 19:49:56.508 +02:00 [INF] {"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhYASPyOf6Z4lAfn5OYZZ1HdLmIwNBOg5d3rpmDn96Lor9jt0p6yP_u1EnHcY6FbIzpm6-_5J3a5dCxszJJTkzEZ6mRydZB29F29h0ltvPE9RRcrn1CkKgm9pQ5Pti4zKRuL-bydQ6ef9A5r6DFW1yksWz4CkMHtQNGmTqycQVd_8CYydbnenITK2rzpbZdXToftwl-QYqECyQ2GpSA2putFkVOUNy71zOHkaJANMHz2dXNfjqieKzhi8OX0SQxJxSgb3yoUe8k2bYs2O-_krg8w","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"code","nonce":"637979969963756567.ODgwMDA4ODctM2EyYS00N2ZmLWIyMTEtY2QyODc3ODZjMmYyNTYxZTVhZTctOTQyNC00ZmNmLThmYTgtNDliMDgxZjNkMWZj","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhYASPyOf6Z4lAfn5OYZZ1HdLmIwNBOg5d3rpmDn96Lor9jt0p6yP_u1EnHcY6FbIzpm6-_5J3a5dCxszJJTkzEZ6mRydZB29F29h0ltvPE9RRcrn1CkKgm9pQ5Pti4zKRuL-bydQ6ef9A5r6DFW1yksWz4CkMHtQNGmTqycQVd_8CYydbnenITK2rzpbZdXToftwl-QYqECyQ2GpSA2putFkVOUNy71zOHkaJANMHz2dXNfjqieKzhi8OX0SQxJxSgb3yoUe8k2bYs2O-_krg8w","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 19:50:28.788 +02:00 [INF] Starting host...
+2022-09-05 19:50:32.699 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:50:32.714 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:50:32.719 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:50:32.721 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:50:32.722 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:50:32.722 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:50:32.722 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:50:32.722 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:50:54.830 +02:00 [INF] Starting host...
+2022-09-05 19:50:57.239 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:50:57.249 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:50:57.255 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:50:57.255 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:50:57.255 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:50:57.255 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:50:57.255 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:50:57.255 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:51:10.744 +02:00 [DBG] Login Url: /Account/Login
+2022-09-05 19:51:10.746 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2022-09-05 19:51:10.748 +02:00 [DBG] Logout Url: /Account/Logout
+2022-09-05 19:51:10.748 +02:00 [DBG] ConsentUrl Url: /consent
+2022-09-05 19:51:10.748 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2022-09-05 19:51:10.749 +02:00 [DBG] Error Url: /home/error
+2022-09-05 19:51:10.749 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 19:52:36.141 +02:00 [INF] Starting host...
+2022-09-05 19:52:38.477 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:52:38.487 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:52:38.489 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:52:38.489 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:52:38.489 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:52:38.490 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:52:38.490 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:52:38.490 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:53:12.536 +02:00 [INF] Starting host...
+2022-09-05 19:53:15.977 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:53:15.989 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:53:15.993 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:53:15.994 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:53:15.994 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:53:15.994 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:53:15.994 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:53:15.998 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:53:18.956 +02:00 [DBG] Login Url: /Account/Login
+2022-09-05 19:53:18.957 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2022-09-05 19:53:18.960 +02:00 [DBG] Logout Url: /Account/Logout
+2022-09-05 19:53:18.961 +02:00 [DBG] ConsentUrl Url: /consent
+2022-09-05 19:53:18.961 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2022-09-05 19:53:18.961 +02:00 [DBG] Error Url: /home/error
+2022-09-05 19:53:18.962 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 19:53:18.971 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2022-09-05 19:53:18.972 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2022-09-05 19:53:18.973 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-09-05 19:53:18.974 +02:00 [DBG] Start discovery request
+2022-09-05 19:53:19.288 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2022-09-05 19:53:19.291 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2022-09-05 19:53:19.291 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2022-09-05 19:53:19.293 +02:00 [DBG] Start key discovery request
+2022-09-05 19:53:19.363 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2022-09-05 19:53:19.369 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2022-09-05 19:53:19.370 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-09-05 19:53:19.371 +02:00 [DBG] Start authorize request
+2022-09-05 19:53:19.375 +02:00 [DBG] No user present in authorize request
+2022-09-05 19:53:19.377 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 19:53:19.384 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 19:53:19.398 +02:00 [ERR] Unsupported response_mode: code
+{"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhb6ySkVQlNId7uJAxKdDmqjsXQLjCTPzLQmf0j5xo49DnXzo-d4qwOK1SuO_jaimgsCjKKwNLX5AjFivY3kehTDjnsHV80vzMH2mK3latIMZu_pnTrSwTcvgB076EaXM1GWIuE1VGp2euTV3K-o8j1t8Jy3np6Jlwk3z9S1TthlRzbaR9WVSkC7pRvtw0QeStL-q6BtQqZ8XyT5ntSVAr1dje1puGXLmcUx5W2dD8PykrlBGOL2354OAJDYZMWs14JFqRbCbaN29qa9_m5YiZv5","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"code","nonce":"637979971993211983.NjZlNDBkYjAtODBhYi00MjllLWJiM2EtNjRhNGI1Yzk3NmRkYmRiZDc3OTEtNTc5MS00ZjU1LTg4NWEtMTliMjQwYWQ4YmY2","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhb6ySkVQlNId7uJAxKdDmqjsXQLjCTPzLQmf0j5xo49DnXzo-d4qwOK1SuO_jaimgsCjKKwNLX5AjFivY3kehTDjnsHV80vzMH2mK3latIMZu_pnTrSwTcvgB076EaXM1GWIuE1VGp2euTV3K-o8j1t8Jy3np6Jlwk3z9S1TthlRzbaR9WVSkC7pRvtw0QeStL-q6BtQqZ8XyT5ntSVAr1dje1puGXLmcUx5W2dD8PykrlBGOL2354OAJDYZMWs14JFqRbCbaN29qa9_m5YiZv5","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 19:53:19.429 +02:00 [ERR] Request validation failed
+2022-09-05 19:53:19.430 +02:00 [INF] {"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhb6ySkVQlNId7uJAxKdDmqjsXQLjCTPzLQmf0j5xo49DnXzo-d4qwOK1SuO_jaimgsCjKKwNLX5AjFivY3kehTDjnsHV80vzMH2mK3latIMZu_pnTrSwTcvgB076EaXM1GWIuE1VGp2euTV3K-o8j1t8Jy3np6Jlwk3z9S1TthlRzbaR9WVSkC7pRvtw0QeStL-q6BtQqZ8XyT5ntSVAr1dje1puGXLmcUx5W2dD8PykrlBGOL2354OAJDYZMWs14JFqRbCbaN29qa9_m5YiZv5","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"code","nonce":"637979971993211983.NjZlNDBkYjAtODBhYi00MjllLWJiM2EtNjRhNGI1Yzk3NmRkYmRiZDc3OTEtNTc5MS00ZjU1LTg4NWEtMTliMjQwYWQ4YmY2","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhb6ySkVQlNId7uJAxKdDmqjsXQLjCTPzLQmf0j5xo49DnXzo-d4qwOK1SuO_jaimgsCjKKwNLX5AjFivY3kehTDjnsHV80vzMH2mK3latIMZu_pnTrSwTcvgB076EaXM1GWIuE1VGp2euTV3K-o8j1t8Jy3np6Jlwk3z9S1TthlRzbaR9WVSkC7pRvtw0QeStL-q6BtQqZ8XyT5ntSVAr1dje1puGXLmcUx5W2dD8PykrlBGOL2354OAJDYZMWs14JFqRbCbaN29qa9_m5YiZv5","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 19:54:26.188 +02:00 [INF] Starting host...
+2022-09-05 19:54:29.947 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:54:29.962 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:54:29.966 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:54:29.966 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:54:29.966 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:54:29.966 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:54:29.966 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:54:29.966 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:54:32.847 +02:00 [DBG] Login Url: /Account/Login
+2022-09-05 19:54:32.849 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2022-09-05 19:54:32.851 +02:00 [DBG] Logout Url: /Account/Logout
+2022-09-05 19:54:32.851 +02:00 [DBG] ConsentUrl Url: /consent
+2022-09-05 19:54:32.852 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2022-09-05 19:54:32.852 +02:00 [DBG] Error Url: /home/error
+2022-09-05 19:54:32.852 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 19:54:32.861 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2022-09-05 19:54:32.862 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2022-09-05 19:54:32.863 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-09-05 19:54:32.868 +02:00 [DBG] Start discovery request
+2022-09-05 19:54:33.172 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2022-09-05 19:54:33.176 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2022-09-05 19:54:33.176 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2022-09-05 19:54:33.179 +02:00 [DBG] Start key discovery request
+2022-09-05 19:54:33.251 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2022-09-05 19:54:33.259 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2022-09-05 19:54:33.260 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-09-05 19:54:33.261 +02:00 [DBG] Start authorize request
+2022-09-05 19:54:33.264 +02:00 [DBG] No user present in authorize request
+2022-09-05 19:54:33.265 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 19:54:33.273 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 19:54:33.280 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 19:54:33.280 +02:00 [DBG] No PKCE used.
+2022-09-05 19:54:33.288 +02:00 [ERR] Invalid scope: profile
+2022-09-05 19:54:33.289 +02:00 [ERR] Request validation failed
+2022-09-05 19:54:33.296 +02:00 [INF] {"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhbQE0fOHKzFhVyHgbWzM0xcgl0AKGXnSA7md0Xq7cim28MgKtt4V51_2NYm1jQtRfnXLmdRgcUjDbFtEuvPEMZRugp6N0FdJjgcoIahRp90yRVYGAFX1nVBasiKDyqI-YB_sku_YdLUTzsNtSenJIlLtQ6-cDAfU9znT-cxZb_V9Thp5ULPHlpNaWS345fbLHmO1FkxeItWYjnocibZJlfQtXJ6YHOvPbRuLVRag8dDgfr7eRUFFvZf19c8PbLOpHbU0iQSpXTAZuKpfZ4SKoek","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"code","scope":"openid profile","response_mode":"form_post","nonce":"637979972732056917.NTlhYjY2YTgtMDM2MC00Zjg4LThhNzEtN2FlZTA5ZDk4YTk0Y2MwYzZhNTItMjQxZS00ZWNkLWE3NGQtZTUzMTU0ODQ0ZDZj","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhbQE0fOHKzFhVyHgbWzM0xcgl0AKGXnSA7md0Xq7cim28MgKtt4V51_2NYm1jQtRfnXLmdRgcUjDbFtEuvPEMZRugp6N0FdJjgcoIahRp90yRVYGAFX1nVBasiKDyqI-YB_sku_YdLUTzsNtSenJIlLtQ6-cDAfU9znT-cxZb_V9Thp5ULPHlpNaWS345fbLHmO1FkxeItWYjnocibZJlfQtXJ6YHOvPbRuLVRag8dDgfr7eRUFFvZf19c8PbLOpHbU0iQSpXTAZuKpfZ4SKoek","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 19:57:11.465 +02:00 [INF] Starting host...
+2022-09-05 19:57:15.076 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 19:57:15.089 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 19:57:15.093 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 19:57:15.093 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 19:57:15.093 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 19:57:15.093 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 19:57:15.093 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 19:57:15.094 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 19:57:17.933 +02:00 [DBG] Login Url: /Account/Login
+2022-09-05 19:57:17.936 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2022-09-05 19:57:17.939 +02:00 [DBG] Logout Url: /Account/Logout
+2022-09-05 19:57:17.940 +02:00 [DBG] ConsentUrl Url: /consent
+2022-09-05 19:57:17.940 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2022-09-05 19:57:17.940 +02:00 [DBG] Error Url: /home/error
+2022-09-05 19:57:17.940 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 19:57:17.950 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2022-09-05 19:57:17.954 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2022-09-05 19:57:17.955 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-09-05 19:57:17.958 +02:00 [DBG] Start discovery request
+2022-09-05 19:57:18.247 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2022-09-05 19:57:18.251 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2022-09-05 19:57:18.251 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2022-09-05 19:57:18.252 +02:00 [DBG] Start key discovery request
+2022-09-05 19:57:18.330 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2022-09-05 19:57:18.336 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2022-09-05 19:57:18.336 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-09-05 19:57:18.340 +02:00 [DBG] Start authorize request
+2022-09-05 19:57:18.346 +02:00 [DBG] No user present in authorize request
+2022-09-05 19:57:18.348 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 19:57:18.355 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 19:57:18.362 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 19:57:18.362 +02:00 [DBG] No PKCE used.
+2022-09-05 19:57:18.372 +02:00 [ERR] Invalid scope: profile
+2022-09-05 19:57:18.374 +02:00 [ERR] Request validation failed
+2022-09-05 19:57:18.382 +02:00 [INF] {"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhZwGCo3ZXoh5C7gZE5NPn7eM7RnjxWb3U04fWnwWzMJHHXnfQUdHK8iGeeUvQecVYQLTGRtnWGmFpxkKy_6Y2EBDl05dtl5RDORFqN2looMOF3ejyj3fZUtz62CpmaM09P8j3K4CzRrFIXIDJFONhyawhqD7or78vwikG-nsA8-04x9fjqNtesaHLQl3HbEYhUR6sj8YKssL0cdwrfgkJQ0cs9wahRRzpoP4W-JRsKSmh2Hl95NeFYjvgymkwHeeCG5f1Ys7kI_Axts9dX5r177","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"code","scope":"openid profile","response_mode":"form_post","nonce":"637979974382809847.ZDFhOTgzMmQtNzE5ZC00OWUwLTg1MDYtZjE0YjE2MGFhNWIyNmQ0Mjk3MDMtMGMzYS00Y2ZkLWEwZTktNWQzMTQ3MWIyNTky","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhZwGCo3ZXoh5C7gZE5NPn7eM7RnjxWb3U04fWnwWzMJHHXnfQUdHK8iGeeUvQecVYQLTGRtnWGmFpxkKy_6Y2EBDl05dtl5RDORFqN2looMOF3ejyj3fZUtz62CpmaM09P8j3K4CzRrFIXIDJFONhyawhqD7or78vwikG-nsA8-04x9fjqNtesaHLQl3HbEYhUR6sj8YKssL0cdwrfgkJQ0cs9wahRRzpoP4W-JRsKSmh2Hl95NeFYjvgymkwHeeCG5f1Ys7kI_Axts9dX5r177","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 19:57:37.261 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2022-09-05 19:57:37.264 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2022-09-05 19:57:37.265 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-09-05 19:57:37.266 +02:00 [DBG] Start discovery request
+2022-09-05 20:00:42.868 +02:00 [INF] Starting host...
+2022-09-05 20:00:48.773 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 20:00:48.785 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 20:00:48.792 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 20:00:48.793 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 20:00:48.793 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 20:00:48.797 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 20:00:48.798 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 20:00:48.798 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 20:00:50.779 +02:00 [DBG] Login Url: /Account/Login
+2022-09-05 20:00:50.781 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2022-09-05 20:00:50.784 +02:00 [DBG] Logout Url: /Account/Logout
+2022-09-05 20:00:50.784 +02:00 [DBG] ConsentUrl Url: /consent
+2022-09-05 20:00:50.784 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2022-09-05 20:00:50.785 +02:00 [DBG] Error Url: /home/error
+2022-09-05 20:00:50.785 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 20:00:50.794 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2022-09-05 20:00:50.796 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2022-09-05 20:00:50.800 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-09-05 20:00:50.802 +02:00 [DBG] Start discovery request
+2022-09-05 20:00:51.117 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2022-09-05 20:00:51.120 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2022-09-05 20:00:51.120 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2022-09-05 20:00:51.122 +02:00 [DBG] Start key discovery request
+2022-09-05 20:00:51.198 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2022-09-05 20:00:51.207 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2022-09-05 20:00:51.208 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-09-05 20:00:51.209 +02:00 [DBG] Start authorize request
+2022-09-05 20:00:51.216 +02:00 [DBG] No user present in authorize request
+2022-09-05 20:00:51.218 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:00:51.225 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:00:51.237 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:00:51.237 +02:00 [DBG] No PKCE used.
+2022-09-05 20:00:51.250 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:00:51.258 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhbFOU9koQ4SlgRQ2_v8NMiJWdAEjJIheI_3wHUYRN6blfVrgZ1Qg4RflkkRkc2Skkdbp2NN7yQSCo0Wy2vT8MqgCPHNDxcBN_Um8J9ODAkDhGldTbL5EjVAC6BnvyMIv8dK5RAa43rI7WRDg1NwVB9mI4O_YPoMWh6jdYjSDNA9EYykV4CtHci-97UYDkM2LGgVFnq-O-VHduTFiCpHFKn4zAa2aq8CEJkrP-UqQ7YJFqzklCa9YJtDvSEZSHuAMr227F56m4IAw5hRpa09NtG2","UiLocales":null,"Nonce":"637979976511494107.NWQyYWE0MGItM2ZlZS00ZGUzLWJkNzItYzY3OWQ5NGU1NTViMTYyODAzNGUtMzE2OS00ODM1LWJiODUtNTNiMmVlZDU5ZDc1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"code","scope":"openid profile","response_mode":"form_post","nonce":"637979976511494107.NWQyYWE0MGItM2ZlZS00ZGUzLWJkNzItYzY3OWQ5NGU1NTViMTYyODAzNGUtMzE2OS00ODM1LWJiODUtNTNiMmVlZDU5ZDc1","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhbFOU9koQ4SlgRQ2_v8NMiJWdAEjJIheI_3wHUYRN6blfVrgZ1Qg4RflkkRkc2Skkdbp2NN7yQSCo0Wy2vT8MqgCPHNDxcBN_Um8J9ODAkDhGldTbL5EjVAC6BnvyMIv8dK5RAa43rI7WRDg1NwVB9mI4O_YPoMWh6jdYjSDNA9EYykV4CtHci-97UYDkM2LGgVFnq-O-VHduTFiCpHFKn4zAa2aq8CEJkrP-UqQ7YJFqzklCa9YJtDvSEZSHuAMr227F56m4IAw5hRpa09NtG2","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 20:00:51.300 +02:00 [INF] Showing login: User is not authenticated
+2022-09-05 20:00:51.353 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:00:51.353 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:00:51.355 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:00:51.355 +02:00 [DBG] No PKCE used.
+2022-09-05 20:00:51.355 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:00:51.357 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:39:19.641 +02:00 [INF] Starting host...
+2022-09-05 20:39:25.929 +02:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2022-09-05 20:39:25.942 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-09-05 20:39:25.947 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2022-09-05 20:39:25.947 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2022-09-05 20:39:25.947 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2022-09-05 20:39:25.947 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2022-09-05 20:39:25.948 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2022-09-05 20:39:25.948 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2022-09-05 20:39:27.671 +02:00 [DBG] Login Url: /Account/Login
+2022-09-05 20:39:27.673 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2022-09-05 20:39:27.674 +02:00 [DBG] Logout Url: /Account/Logout
+2022-09-05 20:39:27.675 +02:00 [DBG] ConsentUrl Url: /consent
+2022-09-05 20:39:27.675 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2022-09-05 20:39:27.676 +02:00 [DBG] Error Url: /home/error
+2022-09-05 20:39:27.676 +02:00 [DBG] Error Id Parameter: errorId
+2022-09-05 20:39:27.686 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2022-09-05 20:39:27.688 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2022-09-05 20:39:27.689 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-09-05 20:39:27.691 +02:00 [DBG] Start discovery request
+2022-09-05 20:39:28.018 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2022-09-05 20:39:28.021 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2022-09-05 20:39:28.022 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2022-09-05 20:39:28.024 +02:00 [DBG] Start key discovery request
+2022-09-05 20:39:28.097 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2022-09-05 20:39:28.105 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2022-09-05 20:39:28.106 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-09-05 20:39:28.107 +02:00 [DBG] Start authorize request
+2022-09-05 20:39:28.111 +02:00 [DBG] No user present in authorize request
+2022-09-05 20:39:28.112 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:39:28.120 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:39:28.129 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:39:28.130 +02:00 [DBG] No PKCE used.
+2022-09-05 20:39:28.144 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:39:28.153 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhaiJ3E66SWG8xNjhHBTycppBtd2XKV_KKwHyaBos4jY789TdtTE12sC5mI1EqCb3JX8oTTIwpgX7hww7Sv6bId4Kamf_PKA1MxXBLS8xiIjE4zq4yJYdXAO8qWRgd6y5n2vUu5UeAWIHrfviwzZScdzrLKXn-YT40KNqdYeoYPoGPN7u6oPNnX8UiJpDunPxkFZ5I57RmgtpriBA6Vo_0h-JOhGyTpBUibBkydx2tcELGgexQy2NKEKpOEadRrKRI0-BSdp7QYskx5WlBgCGLj2","UiLocales":null,"Nonce":"637979999680523391.ODZmOTJlMzQtNWU3Mi00NmEwLTlhZDMtZDNhZDY0MzczNzgzMTU5ZDFhYTYtMjIxMC00OGRhLWI2ODQtNDY5ZmUyMWZkM2Fm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"code","scope":"openid profile","response_mode":"form_post","nonce":"637979999680523391.ODZmOTJlMzQtNWU3Mi00NmEwLTlhZDMtZDNhZDY0MzczNzgzMTU5ZDFhYTYtMjIxMC00OGRhLWI2ODQtNDY5ZmUyMWZkM2Fm","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhaiJ3E66SWG8xNjhHBTycppBtd2XKV_KKwHyaBos4jY789TdtTE12sC5mI1EqCb3JX8oTTIwpgX7hww7Sv6bId4Kamf_PKA1MxXBLS8xiIjE4zq4yJYdXAO8qWRgd6y5n2vUu5UeAWIHrfviwzZScdzrLKXn-YT40KNqdYeoYPoGPN7u6oPNnX8UiJpDunPxkFZ5I57RmgtpriBA6Vo_0h-JOhGyTpBUibBkydx2tcELGgexQy2NKEKpOEadRrKRI0-BSdp7QYskx5WlBgCGLj2","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 20:39:28.191 +02:00 [INF] Showing login: User is not authenticated
+2022-09-05 20:39:28.245 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:39:28.246 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:39:28.247 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:39:28.248 +02:00 [DBG] No PKCE used.
+2022-09-05 20:39:28.248 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:39:28.251 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:02.705 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2022-09-05 20:40:02.729 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:40:02.730 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:02.731 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:40:02.731 +02:00 [DBG] No PKCE used.
+2022-09-05 20:40:02.731 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:40:02.740 +02:00 [DBG] Augmenting SignInContext
+2022-09-05 20:40:02.741 +02:00 [DBG] Adding idp claim with value: local
+2022-09-05 20:40:02.741 +02:00 [DBG] Adding amr claim with value: pwd
+2022-09-05 20:40:02.750 +02:00 [INF] AuthenticationScheme: idsrv signed in.
+2022-09-05 20:40:02.753 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:02.760 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2022-09-05 20:40:02.763 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2022-09-05 20:40:02.763 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2022-09-05 20:40:02.766 +02:00 [DBG] Start authorize callback request
+2022-09-05 20:40:02.768 +02:00 [DBG] User in authorize request: d860efca-22d9-47fd-8249-791ba61b07c7
+2022-09-05 20:40:02.769 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:40:02.769 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:02.770 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:40:02.770 +02:00 [DBG] No PKCE used.
+2022-09-05 20:40:02.770 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:40:02.771 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"d860efca-22d9-47fd-8249-791ba61b07c7","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhaiJ3E66SWG8xNjhHBTycppBtd2XKV_KKwHyaBos4jY789TdtTE12sC5mI1EqCb3JX8oTTIwpgX7hww7Sv6bId4Kamf_PKA1MxXBLS8xiIjE4zq4yJYdXAO8qWRgd6y5n2vUu5UeAWIHrfviwzZScdzrLKXn-YT40KNqdYeoYPoGPN7u6oPNnX8UiJpDunPxkFZ5I57RmgtpriBA6Vo_0h-JOhGyTpBUibBkydx2tcELGgexQy2NKEKpOEadRrKRI0-BSdp7QYskx5WlBgCGLj2","UiLocales":null,"Nonce":"637979999680523391.ODZmOTJlMzQtNWU3Mi00NmEwLTlhZDMtZDNhZDY0MzczNzgzMTU5ZDFhYTYtMjIxMC00OGRhLWI2ODQtNDY5ZmUyMWZkM2Fm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"VOaeDsR6V2sIGSu50lQzWw","Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"code","scope":"openid profile","response_mode":"form_post","nonce":"637979999680523391.ODZmOTJlMzQtNWU3Mi00NmEwLTlhZDMtZDNhZDY0MzczNzgzMTU5ZDFhYTYtMjIxMC00OGRhLWI2ODQtNDY5ZmUyMWZkM2Fm","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhaiJ3E66SWG8xNjhHBTycppBtd2XKV_KKwHyaBos4jY789TdtTE12sC5mI1EqCb3JX8oTTIwpgX7hww7Sv6bId4Kamf_PKA1MxXBLS8xiIjE4zq4yJYdXAO8qWRgd6y5n2vUu5UeAWIHrfviwzZScdzrLKXn-YT40KNqdYeoYPoGPN7u6oPNnX8UiJpDunPxkFZ5I57RmgtpriBA6Vo_0h-JOhGyTpBUibBkydx2tcELGgexQy2NKEKpOEadRrKRI0-BSdp7QYskx5WlBgCGLj2","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 20:40:02.774 +02:00 [DBG] IsActive called from: AuthorizeEndpoint
+2022-09-05 20:40:02.778 +02:00 [DBG] user_consent grant with value: imagegalleryclient|d860efca-22d9-47fd-8249-791ba61b07c7 not found in store.
+2022-09-05 20:40:02.779 +02:00 [DBG] Found no prior consent from consent store, consent is required
+2022-09-05 20:40:02.779 +02:00 [INF] Showing consent: User has not yet consented
+2022-09-05 20:40:02.793 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:40:02.794 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:02.795 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:40:02.795 +02:00 [DBG] No PKCE used.
+2022-09-05 20:40:02.795 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:40:02.796 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:13.882 +02:00 [DBG] CORS request made for path: /Consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2022-09-05 20:40:13.901 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:40:13.901 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:13.902 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:40:13.902 +02:00 [DBG] No PKCE used.
+2022-09-05 20:40:13.902 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:40:13.912 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:13.917 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2022-09-05 20:40:13.917 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2022-09-05 20:40:13.918 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2022-09-05 20:40:13.918 +02:00 [DBG] Start authorize callback request
+2022-09-05 20:40:13.933 +02:00 [DBG] User in authorize request: d860efca-22d9-47fd-8249-791ba61b07c7
+2022-09-05 20:40:13.934 +02:00 [DBG] Start authorize request protocol validation
+2022-09-05 20:40:13.934 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:13.935 +02:00 [DBG] Checking for PKCE parameters
+2022-09-05 20:40:13.935 +02:00 [DBG] No PKCE used.
+2022-09-05 20:40:13.935 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2022-09-05 20:40:13.936 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"imagegalleryclient","ClientName":"Image Gallery","RedirectUri":"https://localhost:44389/signin-oidc","AllowedRedirectUris":["https://localhost:44389/signin-oidc"],"SubjectId":"d860efca-22d9-47fd-8249-791ba61b07c7","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhaiJ3E66SWG8xNjhHBTycppBtd2XKV_KKwHyaBos4jY789TdtTE12sC5mI1EqCb3JX8oTTIwpgX7hww7Sv6bId4Kamf_PKA1MxXBLS8xiIjE4zq4yJYdXAO8qWRgd6y5n2vUu5UeAWIHrfviwzZScdzrLKXn-YT40KNqdYeoYPoGPN7u6oPNnX8UiJpDunPxkFZ5I57RmgtpriBA6Vo_0h-JOhGyTpBUibBkydx2tcELGgexQy2NKEKpOEadRrKRI0-BSdp7QYskx5WlBgCGLj2","UiLocales":null,"Nonce":"637979999680523391.ODZmOTJlMzQtNWU3Mi00NmEwLTlhZDMtZDNhZDY0MzczNzgzMTU5ZDFhYTYtMjIxMC00OGRhLWI2ODQtNDY5ZmUyMWZkM2Fm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"VOaeDsR6V2sIGSu50lQzWw","Raw":{"client_id":"imagegalleryclient","redirect_uri":"https://localhost:44389/signin-oidc","response_type":"code","scope":"openid profile","response_mode":"form_post","nonce":"637979999680523391.ODZmOTJlMzQtNWU3Mi00NmEwLTlhZDMtZDNhZDY0MzczNzgzMTU5ZDFhYTYtMjIxMC00OGRhLWI2ODQtNDY5ZmUyMWZkM2Fm","state":"CfDJ8Jtr0qUbgixPs4D0sLZuhhaiJ3E66SWG8xNjhHBTycppBtd2XKV_KKwHyaBos4jY789TdtTE12sC5mI1EqCb3JX8oTTIwpgX7hww7Sv6bId4Kamf_PKA1MxXBLS8xiIjE4zq4yJYdXAO8qWRgd6y5n2vUu5UeAWIHrfviwzZScdzrLKXn-YT40KNqdYeoYPoGPN7u6oPNnX8UiJpDunPxkFZ5I57RmgtpriBA6Vo_0h-JOhGyTpBUibBkydx2tcELGgexQy2NKEKpOEadRrKRI0-BSdp7QYskx5WlBgCGLj2","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2022-09-05 20:40:13.942 +02:00 [DBG] IsActive called from: AuthorizeEndpoint
+2022-09-05 20:40:13.942 +02:00 [DBG] user_consent grant with value: imagegalleryclient|d860efca-22d9-47fd-8249-791ba61b07c7 not found in store.
+2022-09-05 20:40:13.943 +02:00 [DBG] Found no prior consent from consent store, consent is required
+2022-09-05 20:40:13.945 +02:00 [INF] User consented to scopes: ["openid","profile"]
+2022-09-05 20:40:13.947 +02:00 [DBG] User indicated to remember consent for scopes: ["openid","profile"]
+2022-09-05 20:40:13.948 +02:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: d860efca-22d9-47fd-8249-791ba61b07c7
+2022-09-05 20:40:13.956 +02:00 [DBG] Creating Authorization Code Flow response.
+2022-09-05 20:40:13.970 +02:00 [DBG] Authorize endpoint response
+{"SubjectId":"d860efca-22d9-47fd-8249-791ba61b07c7","ClientId":"imagegalleryclient","RedirectUri":"https://localhost:44389/signin-oidc","State":"CfDJ8Jtr0qUbgixPs4D0sLZuhhaiJ3E66SWG8xNjhHBTycppBtd2XKV_KKwHyaBos4jY789TdtTE12sC5mI1EqCb3JX8oTTIwpgX7hww7Sv6bId4Kamf_PKA1MxXBLS8xiIjE4zq4yJYdXAO8qWRgd6y5n2vUu5UeAWIHrfviwzZScdzrLKXn-YT40KNqdYeoYPoGPN7u6oPNnX8UiJpDunPxkFZ5I57RmgtpriBA6Vo_0h-JOhGyTpBUibBkydx2tcELGgexQy2NKEKpOEadRrKRI0-BSdp7QYskx5WlBgCGLj2","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2022-09-05 20:40:13.975 +02:00 [DBG] Augmenting SignInContext
+2022-09-05 20:40:13.976 +02:00 [INF] AuthenticationScheme: idsrv signed in.
+2022-09-05 20:40:14.072 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2022-09-05 20:40:14.075 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2022-09-05 20:40:14.075 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2022-09-05 20:40:14.078 +02:00 [DBG] Start token request.
+2022-09-05 20:40:14.080 +02:00 [DBG] Start client validation
+2022-09-05 20:40:14.082 +02:00 [DBG] Start parsing Basic Authentication secret
+2022-09-05 20:40:14.082 +02:00 [DBG] Start parsing for secret in post body
+2022-09-05 20:40:14.083 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2022-09-05 20:40:14.083 +02:00 [DBG] Secret id found: imagegalleryclient
+2022-09-05 20:40:14.084 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:14.088 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2022-09-05 20:40:14.089 +02:00 [DBG] Client validation success
+2022-09-05 20:40:14.092 +02:00 [DBG] Start token request validation
+2022-09-05 20:40:14.099 +02:00 [DBG] Start validation of authorization code token request
+2022-09-05 20:40:14.112 +02:00 [DBG] IsActive called from: AuthorizationCodeValidation
+2022-09-05 20:40:14.112 +02:00 [DBG] Validation of authorization code token request success
+2022-09-05 20:40:14.117 +02:00 [INF] Token request validation success, {"ClientId":"imagegalleryclient","ClientName":"Image Gallery","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"yUM0Rlx_rRciUoIgQLQBuq6_w32YvRErQD6x6pzWhCk","RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"imagegalleryclient","client_secret":"***REDACTED***","code":"yUM0Rlx_rRciUoIgQLQBuq6_w32YvRErQD6x6pzWhCk","grant_type":"authorization_code","redirect_uri":"https://localhost:44389/signin-oidc"},"$type":"TokenRequestValidationLog"}
+2022-09-05 20:40:14.121 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:14.128 +02:00 [DBG] Getting claims for access token for client: imagegalleryclient
+2022-09-05 20:40:14.130 +02:00 [DBG] Getting claims for access token for subject: d860efca-22d9-47fd-8249-791ba61b07c7
+2022-09-05 20:40:14.132 +02:00 [DBG] Get profile called for subject d860efca-22d9-47fd-8249-791ba61b07c7 from client Image Gallery with claim types [] via ClaimsProviderAccessToken
+2022-09-05 20:40:14.133 +02:00 [DBG] Issued claims: []
+2022-09-05 20:40:14.264 +02:00 [DBG] client configuration validation for client imagegalleryclient succeeded.
+2022-09-05 20:40:14.268 +02:00 [DBG] Getting claims for identity token for subject: d860efca-22d9-47fd-8249-791ba61b07c7 and client: imagegalleryclient
+2022-09-05 20:40:14.268 +02:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2022-09-05 20:40:14.270 +02:00 [DBG] Token request success.
